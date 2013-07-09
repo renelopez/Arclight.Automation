@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arclight.Automation.AdminWeb", "Arclight.Automation.AdminWeb\Arclight.Automation.AdminWeb.csproj", "{EE21B995-9372-4966-BCE8-1158223066C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arclight.Automation.PageObjects", "Arclight.Automation.PageObjects\Arclight.Automation.PageObjects.csproj", "{8F3DCD88-EB0A-4D68-8073-6053C8B66A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arclight.Automation.Selenium", "Arclight.Automation.Selenium\Arclight.Automation.Selenium.csproj", "{58A066B0-9099-4D1B-A446-EC302C209D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arclight.Automation.TestFlow", "Arclight.Automation.TestFlow\Arclight.Automation.TestFlow.csproj", "{B6673E9B-22EF-4AAD-A26F-43397C293B79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE21B995-9372-4966-BCE8-1158223066C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE21B995-9372-4966-BCE8-1158223066C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE21B995-9372-4966-BCE8-1158223066C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE21B995-9372-4966-BCE8-1158223066C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F3DCD88-EB0A-4D68-8073-6053C8B66A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F3DCD88-EB0A-4D68-8073-6053C8B66A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F3DCD88-EB0A-4D68-8073-6053C8B66A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F3DCD88-EB0A-4D68-8073-6053C8B66A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A066B0-9099-4D1B-A446-EC302C209D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A066B0-9099-4D1B-A446-EC302C209D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A066B0-9099-4D1B-A446-EC302C209D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A066B0-9099-4D1B-A446-EC302C209D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6673E9B-22EF-4AAD-A26F-43397C293B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6673E9B-22EF-4AAD-A26F-43397C293B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6673E9B-22EF-4AAD-A26F-43397C293B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6673E9B-22EF-4AAD-A26F-43397C293B79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
