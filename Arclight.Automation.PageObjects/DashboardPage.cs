@@ -13,7 +13,7 @@ namespace Arclight.Automation.PageObjects
         {
             get
             {
-                return Browser.GetElement(By.XPath("(//div[@class='btn-group'])[7]/a[1]"));
+                return Browser.GetElement(By.XPath("(//div[@class='btn-group'])[8]/a[1]"));
             }
         }
 

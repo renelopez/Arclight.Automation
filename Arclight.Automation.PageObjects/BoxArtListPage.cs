@@ -22,5 +22,10 @@ namespace Arclight.Automation.PageObjects
             LastPageButton.Click();
             Browser.WaitForTextPresent(capturedValue,Browser.MAX_WAIT);
         }
+
+        public bool IsCreatedBoxArtDisplayed(string capturedValue)
+        {
+            return Browser.Driver.PageSource.Contains(capturedValue);
+        }
     }
 }

@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
+using Gallio.Framework;
+using OpenQA.Selenium;
 
 namespace Arclight.Automation.Selenium
 {
@@ -161,7 +164,7 @@ namespace Arclight.Automation.Selenium
             }
         }
 
-        public static void TakeScreenshot(string portal, string path)
+        public static void TakeScreenshot(string path)
         {
             var screenCapture = ((ITakesScreenshot)Browser.Driver).GetScreenshot();
             screenCapture.SaveAsFile(path, System.Drawing.Imaging.ImageFormat.Png);
